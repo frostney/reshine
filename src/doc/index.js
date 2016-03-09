@@ -1,0 +1,8 @@
+import filter from './filter';
+import find from './find';
+import insert from './insert';
+import merge from './merge';
+import remove from './remove';
+import update from './update';
+
+export default { filter, find, insert, merge, remove, update };

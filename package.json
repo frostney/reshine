@@ -1,0 +1,44 @@
+{
+  "name": "reshine",
+  "version": "1.0.0",
+  "description": "Let's take the sunshine path with RethinkDB",
+  "main": "dist/reshine.js",
+  "jsnext:main": "dist/reshine.es2015.js",
+  "scripts": {
+    "build": "rollup-babel-lib-bundler -f cjs,es6 src/index.js",
+    "lint": "eslint .",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frostney/reshine.git"
+  },
+  "keywords": [
+    "rethink",
+    "rethinkdb",
+    "sunshine",
+    "wrapper"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ],
+  "author": "Johannes Stein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frostney/reshine/issues"
+  },
+  "homepage": "https://github.com/frostney/reshine#readme",
+  "devDependencies": {
+    "babel-preset-es2015-loose-rollup": "^7.0.0",
+    "eslint": "^2.3.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.1",
+    "rollup-babel-lib-bundler": "^2.3.3"
+  },
+  "dependencies": {
+    "map-obj": "^1.0.1",
+    "rethinkdb": "^2.2.2"
+  }
+}
