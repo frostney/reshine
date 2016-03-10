@@ -1,6 +1,6 @@
 {
   "name": "reshine",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Let's take the sunshine path with RethinkDB",
   "main": "dist/reshine.js",
   "jsnext:main": "dist/reshine.es2015.js",
