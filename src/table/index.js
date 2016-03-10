@@ -13,6 +13,9 @@ const select = tableName => dbName => connection => {
   return create(tableName)(dbName)(connection).then(result => {
     docMethods.result = result;
 
+    // TODO: Handle `filter.toArray` in a more generic fashion
+    docMethods.filter.toArray = toFilter => doc.filter(toFilter)(tableName)(dbName)(connection);
+
     return docMethods;
   });
 };
