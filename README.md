@@ -9,7 +9,7 @@ Is your answer `YES`?
 Then `reshine` is for you! It takes away that error handling and creates databases, tables for you if they don't exist.
 
 ### Usage
-```
+```javascript
 import { connect, database } from 'reshine';
 
 connect().then(conn =>
@@ -26,3 +26,4 @@ This gets the document if it exists. Any database and tables that don't exist al
 - upsert
 - documents need to be handled more sunshine-y
 - Tests (Not trusting the sunshine path that much)
+- When implementing the library I realized the newest data should also be last which it's currently not. So I guess a new major version is on the horizon
