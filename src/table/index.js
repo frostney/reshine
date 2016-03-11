@@ -8,7 +8,7 @@ import doc from '../doc';
 
 const select = tableName => dbName => connection => {
   const docMethods = mapObj(doc, (key, value) => [key, (...args) =>
-    value(args)(tableName)(dbName)(connection)]);
+    value.apply(null, args)(tableName)(dbName)(connection)]);
 
   return create(tableName)(dbName)(connection).then(result => {
     docMethods.result = result;
