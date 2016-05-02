@@ -33,9 +33,9 @@
   "devDependencies": {
     "babel-preset-es2015-loose-rollup": "^7.0.0",
     "eslint": "^2.3.0",
-    "eslint-config-airbnb": "^6.1.0",
-    "eslint-plugin-react": "^4.2.1",
-    "rollup-babel-lib-bundler": "^2.3.3"
+    "eslint-config-airbnb": "^6.2.0",
+    "eslint-plugin-react": "^4.3.0",
+    "rollup-babel-lib-bundler": "^2.6.2"
   },
   "dependencies": {
     "map-obj": "^1.0.1",
