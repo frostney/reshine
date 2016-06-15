@@ -1,4 +1,4 @@
-import { connect } from 'rethinkdbdash';
+import { connect } from './adapter';
 
 import database from './database';
 import table from './table';
