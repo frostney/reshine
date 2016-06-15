@@ -1,4 +1,4 @@
-import r from 'rethinkdb';
+import r from '../adapter';
 
 export default id => tableName => dbName => connection =>
   r.db(dbName)

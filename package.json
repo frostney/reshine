@@ -59,6 +59,6 @@
   },
   "dependencies": {
     "map-obj": "^1.0.1",
-    "rethinkdb": "^2.3.2"
+    "rethinkdbdash": "^2.3.8"
   }
 }

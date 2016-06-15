@@ -1,4 +1,4 @@
-import r from 'rethinkdb';
+import r from '../adapter';
 
 import exists from './exists';
 
