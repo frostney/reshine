@@ -1,4 +1,4 @@
-import r from '../adapter';
+import r from 'rethinkdb';
 
 const filter = toFilter => tableName => dbName => connection =>
   r.db(dbName)
